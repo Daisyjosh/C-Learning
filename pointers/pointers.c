@@ -6,6 +6,13 @@ void change_pointer(int **p){
 }
 
 int main(void){
+
+    // types of pointer declaration
+    // int* ptr;
+    // int *ptr;
+    // int * ptr;
+
+    
     int age = 21;
     int *ptr = &age; // age pointer
     int **pptr = &ptr;
